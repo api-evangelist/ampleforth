@@ -1,8 +1,26 @@
 aid: ampleforth
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ampleforth.png
 name: Ampleforth
-description: 'Ampleforth is a company surfaced as a portfolio company of pantera-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Ampleforth is a decentralized finance (DeFi) protocol behind AMPL, a price-stable
+  but supply-elastic cryptocurrency that targets the CPI-adjusted 2019 US dollar by algorithmically
+  adjusting token supply (rebasing) across all holders rather than moving price. The ecosystem
+  spans the AMPL rebasing token, Wrapped AMPL (WAMPL), the FORTH governance token and DAO, and
+  the SPOT inflation-resistant store-of-value protocol built on tranched AMPL collateral. Ampleforth
+  is open-source (smart contracts under the fragmentsorg GitHub organization, working name uFragments),
+  audited, and deployed on Ethereum with cross-chain support. Surfaced as a portfolio company of
+  pantera-capital and enriched in the API Evangelist network from its public docs, GitHub org, blog,
+  and community channels; it publishes protocol documentation and an llms.txt but no REST/HTTP API.'
 url: https://raw.githubusercontent.com/api-evangelist/ampleforth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +34,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Crypto
+- DeFi
+- Blockchain
+- Ethereum
+- Stablecoin
+- Governance
+- Smart Contracts
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.ampleforth.org/
+- type: Documentation
+  url: https://docs.ampleforth.org/
+- type: Blog
+  url: https://blog.ampleforth.org/
+- type: GitHubOrganization
+  url: https://github.com/fragmentsorg
+- type: Support
+  url: https://discord.gg/mptQ49m
+- type: Community
+  url: https://forum.ampleforth.org/
+- type: LLMsTxt
+  url: llms/ampleforth-llms.txt
+- type: DomainSecurity
+  url: security/ampleforth-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
